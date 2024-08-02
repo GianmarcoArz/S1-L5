@@ -1,0 +1,167 @@
+/* Impostazioni generali*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap");
+
+body {
+  font-family: "open sans";
+}
+/* header */
+
+.div1 {
+  text-align: center;
+  background-color: black;
+  padding: 2rem;
+}
+
+.img1 {
+  width: 50%;
+}
+
+.nav1 {
+  text-align: center;
+  line-height: 1.65rem;
+  background-image: url(../images/banner.jpg);
+  background-size: 150%;
+  background-position: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: "montserrat";
+  color: #25a2c3;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.padding {
+  padding: 2rem;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "montserrat";
+  color: white;
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+/* main */
+
+main {
+  text-align: center;
+  line-height: 1.65rem;
+  padding-block: 1rem;
+  padding: 2rem;
+}
+
+h3 {
+  font-family: "montserrat";
+  color: #25a2c3;
+  padding: 0.5rem;
+}
+
+main p {
+  padding-bottom: 1rem;
+}
+
+.img2 {
+  width: 50%;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+/* section */
+
+section {
+  background-color: #df2d12;
+  text-align: center;
+  padding: 0.8rem;
+  color: white;
+}
+
+h2 {
+  font-family: "montserrat";
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+section > p {
+  font-style: italic;
+}
+
+.paddingtop {
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+  font-size: 1.5rem;
+}
+
+section p {
+  line-height: 1.5rem;
+}
+
+/* nav */
+nav {
+  padding: 2rem;
+}
+nav div {
+  border-radius: 0.5rem;
+  text-align: center;
+  border: solid;
+  margin: 1rem;
+  border-color: #dee1e3;
+}
+
+.img3 {
+  width: 100%;
+}
+
+nav div h3 {
+  font-family: "montserrat";
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+nav div p {
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  background-color: #2c9dca;
+}
+
+h2 {
+  font-family: "montserrat";
+  color: white;
+  padding: 2rem;
+}
+
+ol {
+  color: white;
+  line-height: 1.5rem;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  color: white;
+  margin-inline: 10rem;
+}
+
+footer p {
+  color: white;
+  padding: 2rem;
+}
+
+span {
+  text-decoration: underline;
+}
